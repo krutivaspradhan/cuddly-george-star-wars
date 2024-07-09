@@ -1,0 +1,88 @@
+/* General Styles */
+
+/* Ensure the body and html are set to full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header Styles */
+header {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Main Content Styles */
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Make sure the footer stays at the bottom */
+.footer {
+  margin-top: auto;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: hwb(170 61% 34%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Ordered List Styles */
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  footer {
+    position: static;
+  }
+}
+
+.custom-toggler {
+  border-color: #ffcc00; /* Custom border color */
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffcc00' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Custom icon color */
+}
