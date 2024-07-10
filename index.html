@@ -1,6 +1,6 @@
 <!--
   author: Krutivas Pradhan
-  version: 1.2 (dev box)
+  version: 1.3 (github)
   github: https://github.com/krutivaspradhan
 -->
 
@@ -45,7 +45,7 @@
     </div>
   </nav>
 
-
+  
   <header class="text-center py-5">
     <h1>Star Wars Movie Ranking</h1>
   </header>
@@ -54,16 +54,18 @@
     <i>Krutivas's personal Star Wars movie Ranking</i>
   </div>
 
+
   <main class="container my-5">
-    <h2>Here is my list</h2>
-    <ol>
-      <li>Rogue One</li>
-      <li>Revenge of the Sith</li>
-      <li>A New Hope</li>
-      <li>The Phantom Menace</li>
-      <li>Return of the Jedi</li>
-      <li>Attack of the clones</li>
+    <h2 class="mb-4">Here is my list</h2>
+    <ol id="movieList" class="list-group list-group-numbered mb-4">
+      <li class="list-group-item">Rogue One</li>
+      <li class="list-group-item">Revenge of the Sith</li>
+      <li class="list-group-item">A New Hope</li>
+      <li class="list-group-item">The Phantom Menace</li>
+      <li class="list-group-item">Return of the Jedi</li>
+      <li class="list-group-item">Attack of the clones</li>
     </ol>
+    <button id="addMovie" class="btn btn-primary">Add Random Movie</button>
   </main>
 
   <footer class="footer bg-dark text-white text-center py-3 mt-auto">
